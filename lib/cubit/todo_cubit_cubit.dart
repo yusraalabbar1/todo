@@ -42,11 +42,11 @@ class TodoCubitSearch extends Cubit<List<Todo>> {
   }
 }
 
-class TodoCubitGet extends Cubit<Todo> {
-  TodoCubitGet(super.initialState);
-  // TodoCubitSearch() : super(Todo(0, "s", "decription 0"));
+// class TodoCubitGet extends Cubit<Todo> {
+//   TodoCubitGet(super.initialState);
+//   // TodoCubitSearch() : super(Todo(0, "s", "decription 0"));
 
-  getElement(int id) {
-    print(id);
-  }
-}
+//   getElement(int id) {
+//     print(id);
+//   }
+// }
